@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(132, 225, 173);
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(rgb(60, 215, 129), rgb(28, 79, 48));
+    padding: 30px;
+}
+
+header > h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+}
+
+
+h1 {
+    font-family: 'idroid';
+    color: rgb(23, 80, 49);
+    font-size: 2.5em;
+    margin: 0px;
+}
+
+h2 {
+    background: linear-gradient(90deg, rgba(200, 236, 216, 1) 5%, rgba(255,255,255,1) 100%);
+    font-family: 'idroid';
+    color: rgb(23, 80, 49);
+    padding-left: 10px;
+}
+
+
+p {
+    text-indent: 25px;
+} 
+
+nav {
+    background-color: rgb(28, 79, 48);
+    padding: 7px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+main {
+    /* background-color: rgb(132, 225, 173);*/
+    text-align: justify;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    border-radius: 10px 0px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+
+    margin: 0px 90px 10px 90px;
+    
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(26, 92, 56);
+}
+
+#video {
+    background-color: rgb(26, 92, 56);
+    padding: 10px;
+    text-align: center;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(26, 92, 56);
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+.two-columns {
+    column-count: 2;
+}
+
+article#extra {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+#extracontent > h3 {
+    color: white;
+    background-color: rgb(47, 168, 102);
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#extracontent {
+    padding: 5px;
+    background-color: rgb(197, 235, 214);
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
